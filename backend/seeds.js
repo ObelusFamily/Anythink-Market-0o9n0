@@ -54,7 +54,8 @@ if (!process.env.MONGODB_URI) {
             await comment.save();
         }
     }
-
+    console.log('------------- finished!');
+    await mongoose.disconnect();
     process.exit(1);
 })()
 
