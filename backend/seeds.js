@@ -6,7 +6,7 @@ if (!process.env.MONGODB_URI) {
 (async () => {
     await mongoose.connect(process.env.MONGODB_URI);
 
-    mongoose.set("debug", true);
+    //mongoose.set("debug", true);
     require("./models/User");
     require("./models/Item");
     require("./models/Comment");
