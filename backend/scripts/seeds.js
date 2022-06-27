@@ -27,6 +27,7 @@ async function main() {
       title: `title ${i}`,
       description: `description ${i}`,
       seller: user,
+      image: '/placeholder.png',
     });
     await item.save();
 
