@@ -29,7 +29,7 @@ const ItemPreview = (props) => {
     }
   };
 
-  const itemImageUrl = item.image ? item.image : 'placeholder.png';
+  const itemImageUrl = item.image ? item.image : "placeholder.png";
 
   return (
     <div
