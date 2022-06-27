@@ -47,7 +47,9 @@ class Item extends React.Component {
 
     const itemImageUrl = this.props.item.image
       ? this.props.item.image
-      : "placeholder.png";
+      : "/placeholder.png";
+
+    console.log(">> item image url", itemImageUrl, this.props.item.image);
 
     return (
       <div className="container page">
