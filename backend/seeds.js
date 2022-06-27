@@ -54,4 +54,7 @@ if (!process.env.MONGODB_URI) {
             await comment.save();
         }
     }
+
+    process.exit(1);
 })()
+
