@@ -56,6 +56,6 @@ if (!process.env.MONGODB_URI) {
     }
     console.log('------------- finished!');
     await mongoose.disconnect();
-    process.exit(1);
+    process.exit(0);
 })()
 
